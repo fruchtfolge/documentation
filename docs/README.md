@@ -5,11 +5,14 @@ lang: de-DE
 ## Schön, dass Sie hier sind!
 Willkommen auf der Support-Seite der Fruchtfolge Anwendung der Universität Bonn! 
 Hier finden Sie ausführliche Anleitungen zu allen bestandteilen der Anwendung.
-Bei offenen Fragen, Kritik und Anregungen können Sie uns gerne eine E-Mail schreiben an [fruchtfolge@uni-bonn.de](fruchtfolge@uni-bonn.de)!
+Bei offenen Fragen, Kritik und Anregungen können Sie uns gerne eine E-Mail schreiben an [fruchtfolge@uni-bonn.de](fruchtfolge@uni-bonn.de).
+
+Sie wissen noch nicht, warum Sie die Fruchtfolge Anwendung benutzen sollten? Dann sehen Sie sich die [**Häufig gestellten Fragen**](./faq/faq.html#warum-sollte-ich-die-fruchtfolge-anwendung-benutzen) an.
 
 ::: tip Schulungsvideos
 Die hier aufgeführten Informationen können Sie auch bequem [als Video ansehen](./videos/videos.html#registrieren).
 :::
+
 
 ## Registrieren
 Um sich bei der Fruchtfolge Anwendung anmelden zu können, müssen Sie sich zunächst registrieren. Dazu öffnen Sie die Seite [fruchtfolge.uni-bonn.de](http://fruchtfolge.agp.uni-bonn.de) und klicken auf den 'Registrieren' Button in der oberen rechten Ecke der Seite.

@@ -1,6 +1,9 @@
 module.exports = {
   title: 'FRUCHTFOLGE',
   description: 'Dokumentation der Fruchtfolge Anwendung',
+  head: [
+    ['link', { rel: 'icon', href: '../img/favicon.ico' }]
+  ],
   evergreen: true,
   themeConfig: {
     nav: [
