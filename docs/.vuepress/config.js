@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'FRUCHTFOLGE',
+  title: 'Fruchtfolge',
   description: 'Dokumentation der Fruchtfolge Anwendung',
   head: [
-    ['link', { rel: 'icon', href: '../img/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: `/icons/favicon.ico` }]
   ],
   evergreen: true,
   themeConfig: {
@@ -13,13 +13,12 @@ module.exports = {
       {
         title: 'Anleitung',   // required
         collapsable: false, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
+        sidebarDepth: 2,    // optional, defaults to 1
         children: [
           ['/', "Los Geht's"],
           ['/guide/overview', 'Übersicht'],
           ['/guide/import', 'Daten importieren'],
-          ['/guide/add_plot', 'Schläge hinzufügen'],
-          ['/guide/change_plots', 'Schläge bearbeiten']
+          ['/guide/plots', 'Schläge verwalten'],
         ]
       },
       {

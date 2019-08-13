@@ -15,8 +15,7 @@ Der [Programmoberfläche](./overview.html#programmoberflache), der [Navigationsl
 ## Programmoberfläche
 Auf der Programmoberfläche wird der Inhalt der Fruchtfolge Anwendung abgebildet.
 Abhängig von der ausgewählten Unterseite gibt es in der Oberfläche die Möglichkeit,
-Daten an die betrieblichen Gegebenheiten anzupassen. Die Funktionen der einzelnen
-Unterseiten werden später im Abschnitt [Unterseiten](./overview.html#szenario-wirtschaftsjahrauswahl) erläutert.
+Daten an die betrieblichen Gegebenheiten anzupassen.
 
 ![Programmoberfläche](../img/main_page.png)
 
