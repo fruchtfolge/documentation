@@ -11,7 +11,7 @@ Der Import von Flächenantragsdaten ist aus technischen Gründen aktuell nur fü
 
 ## Automatischer Import <Badge text="empfohlen"/>
 
-![Automatischer Import](../img/auto_import.png)
+![Automatischer Import](../img/auto_import.jpg)
 
 Um die Daten automatisch aus dem Flächenantrag zu importieren, geben Sie Ihre **15-Stellige ZID Betriebsnummer** in das Eingabefeld mit dem Platzhalter *ZID-Betriebsnummer (27605...)* ein. Anschließend füllen Sie das Feld mit dem Platzhalter *Passwort* mit der zur ZID-Betriebsnummer gehörigen **6-Stelligen ZID-Pin** aus.
 
@@ -30,7 +30,7 @@ Wenn Sie diese Dinge überprüft haben, können Sie nach kurzer Zeit wiederholt 
 ## Manueller Import
 Der manuelle Import von Flächenatragsdaten ist insbesondere für den Zeitraum zwischen der Antragsstellung im Frühjahr und der Bereitstellung der Daten im LWK-Downloadportal zum 01.09 des Jahres geeignet. Gleichtzeitig können Sie den manuellen Import nutzen, wenn Sie Ihre ZID-Betriebsnummer und PIN nicht angeben möchten.
 
-![Automatischer Import](../img/man_import.png)
+![Automatischer Import](../img/man_import.jpg)
 
 Die erforderlichen `.xml` und `.gml` Dateien für die vergangenen Antragsjahre können Sie dabei aus dem [LWK-Downloadportal](https://www.lwk-verfahren.de/DownloadPortal/pages/loadPage.action) beziehen. Eine Anleitung zur Benutzung des Downloadportal finden Sie auf den [Seiten der Landwirtschaftskammer-NRW](https://www.landwirtschaftskammer.de/foerderung/elan/faq-downloadportal.htm)
 

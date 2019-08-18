@@ -21,7 +21,7 @@ Die Erstellung eines Anbauplans dauert in der Regel weniger als 30 Minuten, inkl
 In Ihrem Browser wird neben der Adresse `fruchtfolge.uni-bonn.de` oder 
 `fruchtfolge.agp.uni-bonn.de` folgendes angezeigt:
 
-![Website nicht sicher](../img/not_secure.png)
+![Website nicht sicher](../img/not_secure.jpg)
 
 Dieser Hinweis tritt auf, da die Fruchtfolge Anwendung derzeit noch kein sog. `TLS` (Transport Layer Security, häufig auch `SSL` genannt) Zertifikat besitzt. `TLS` ist ein Verschlüsselungsprotokoll, dass beispielsweise die Kommunikation zwischen einem PC und einem Webserver absichert. Sie erkennen dieses in der Regel dadurch, dass die Adresse einer Website (`URL`) mit `https://` anstelle von `http://` beginnt. Ohne dieses Zertifikat ist es Angreifern potenziell möglich, Daten die zwischen einem PC und einem Server ausgetauscht werden (z.B. Benutzernamen und Passwörter) auszulesen, da diese nicht verschlüsselt sind.
 

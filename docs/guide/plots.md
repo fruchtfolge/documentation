@@ -14,13 +14,17 @@ den verschiedenen Schlägen vereinfacht.
 Um einen Schlag hinzuzufügen, wechseln Sie zur nächst zur Seite [`Karte`](http://fruchtfolge.agp.uni-bonn.de/maps).
 
 In der linken, unteren Ecke der Kartenansicht befindet sich eine Reihe von Symbolen:
-Ein Rechteck, ein Papierkorb und ein weiteres Symbol.
+Ein Rechteck, ein Papierkorb und ein weiteres Symbol (Zusammenfügen).
 
-![Symbolleiste](../img/plots_icons.png)
+![Symbolleiste](../img/plots_icons.jpg)
 
 Durch den Klick auf das Rechteck-Symbol verändert sich ihr Mauszeiger zu einem Fadenkreuz: Sie können nun beginnen, einen Schlag in der Karte einzuzeichnen:
 
-![Symbolleiste](../img/add_plot.gif)
+<!-- ![Symbolleiste](../img/add_plot.gif) -->
+<video id="add_plot" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/add_plot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 Hierzu klicken Sie mit dem Fadenkreuz jeweils in die Ecken des Schlags in der Karte.
 Um die Zeichnung abzuschließen, klicken Sie erneut auf die zuerst gezeichnete Koordinate.
@@ -33,7 +37,7 @@ der gewöhnliche Mauszeiger angezeigt.
 Nachdem Sie die Zeichnung des Schlags abgeschlossen haben, öffnet sich automatisch
 ein Eingabefenster. Hier können Sie die Bezeichnung des Schlags, sowie die jeweiligen Vorfrüchte angeben.
 
-![Symbolleiste](../img/add_plot_dialogue.png)
+![Symbolleiste](../img/add_plot_dialogue.jpg)
 
 Durch Klicken des **Übernehmen**-Buttons wird der Schlag gespeichert. Im Hintergrund werden nun automatisch die Hof-Feld-Distanz, Bodenqualität, Bodenart, der Humusgehalt, sowie ob die Fläche innerhalb eines "roten" Grundwasserkörpers liegt abgefragt.
 

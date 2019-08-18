@@ -4,8 +4,8 @@
   "description": "User documentation for the Fruchtfolge client app",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs & node optimize.js",
+    "build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christoph Pahmeyer <christoph.pahmeyer@uni-bonn.de>",
