@@ -34,7 +34,7 @@ const watcher = fs.watch('./docs/original', {
     } else if (ext === '.mp4' || ext === '.mov') {
       // minify videos
       const command = `${ffmpeg.path} -v quiet -stats -i "${
-        filename}" -vf scale=1024:-2 "../img/${base}.mp4"`
+        filename}" -vf scale=1024:-2 "../img/${base}.webm"`
       await exec(command, {cwd: './docs/original'})
     }
   } catch (e) {

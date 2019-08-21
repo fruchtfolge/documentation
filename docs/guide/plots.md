@@ -22,7 +22,7 @@ Durch den Klick auf das Rechteck-Symbol verändert sich ihr Mauszeiger zu einem 
 
 <!-- ![Symbolleiste](../img/add_plot.gif) -->
 <video id="add_plot" width="100%" height="auto" controls autoplay loop>
-  <source src="../img/add_plot.mp4" type="video/mp4">
+  <source src="../img/add_plot.webm" type="video/webm">
   Your browser does not support the video tag.
 </video> 
 
