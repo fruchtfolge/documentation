@@ -2,25 +2,43 @@
 // and run a program to reduce their filesize
 const fs = require('fs')
 const path = require('path')
-const { exec } = require('child_process')
+const util = require('util')
+const cp = require('child_process')
+const ffmpeg = require('ffmpeg-static')
+const sharp = require('sharp')
+const imagemin = require('imagemin')
+const imageminJpegoptim = require('imagemin-jpegoptim')
 
-const watcher = fs.watch('./docs/original', { encoding: 'utf8' }, (eventType, filename) => {
-  if (filename && eventType === 'rename') {
-    // the file either got added or deleted
-    if (path.extname(filename) === '.png') {
-      const commands = [
-        `sips -s format jpeg -s formatOptions 70 -Z 1024 "${filename}" --out "../img/${path.basename(filename, '.png')}.jpg"`,
-        `jpegoptim "../img/${path.basename(filename,'.png')}.jpg" -m80 -o -p --strip-all`
-      ]
-      exec(commands.join(' && '), {cwd: './docs/original'}, (err, stdout, stderr) => {
-        console.log(err,stdout,stderr)
+const exec = util.promisify(cp.exec)
+
+const watcher = fs.watch('./docs/original', { 
+  encoding: 'utf8' 
+}, async (eventType, filename) => {
+  if (!filename || eventType !== 'rename') return
+  try {
+    const filepath = `./docs/original/${filename}`
+    const ext = path.extname(filename)
+    const base = path.basename(filename,ext)
+    // minify images
+    if (ext === '.png' || ext === '.jpg' || ext === '.jpeg') {
+      const outpath = `./docs/img/${base}.jpg`
+      // resize image
+      await sharp(filepath).resize(1024).toFile(outpath)
+      // and minify
+      await imagemin([outpath], {
+        destination: './docs/img',
+        use: [imageminJpegoptim({
+          size: 90
+        })]
       })
-    } else if (path.extname(filename) === '.mp4') {
-      const command = `ffmpeg -v quiet -stats -i "${filename}" -vf scale=1024:-2 "../img/${filename}"`
-      exec(command, {cwd: './docs/original'}, (err, stdout, stderr) => {
-        console.log(err,stdout,stderr)
-      })
+    } else if (ext === '.mp4' || ext === '.mov') {
+      // minify videos
+      const command = `${ffmpeg.path} -v quiet -stats -i "${
+        filename}" -vf scale=1024:-2 "../img/${base}.mp4"`
+      await exec(command, {cwd: './docs/original'})
     }
+  } catch (e) {
+    console.error(e)
   }
 })
 

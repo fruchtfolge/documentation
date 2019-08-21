@@ -11,6 +11,10 @@
   "author": "Christoph Pahmeyer <christoph.pahmeyer@uni-bonn.de>",
   "license": "MIT",
   "devDependencies": {
+    "imagemin": "^7.0.0",
+    "imagemin-jpegoptim": "^6.0.0",
+    "sharp": "^0.23.0",
+    "ffmpeg-static": "^2.5.0",
     "vuepress": "^1.0.1"
   }
 }
