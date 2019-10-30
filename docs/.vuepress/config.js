@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/documentation/',
   title: 'Fruchtfolge',
   description: 'Dokumentation der Fruchtfolge Anwendung',
   head: [
