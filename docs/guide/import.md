@@ -3,7 +3,7 @@ title: Daten importieren
 lang: de-DE
 ---
 
-Auf der Seite [`Einstellungen`](http://fruchtfolge.agp.uni-bonn.de/settings) haben Sie die Möglichkeit, Daten über die von Ihnen bewirtschafteten Schläge und Kulturen aus Ihrem Flächenantrag zu importieren.
+Auf der Seite [`Einstellungen`](https://fruchtfolge.agp.uni-bonn.de/settings) haben Sie die Möglichkeit, Daten über die von Ihnen bewirtschafteten Schläge und Kulturen aus Ihrem Flächenantrag zu importieren.
 
 ::: warning Hinweis
 Der Import von Flächenantragsdaten ist aus technischen Gründen aktuell nur für **Nordrhein-Westfalen** verfügbar. Sie können die Anwendung jedoch auch verwenden, wenn Ihr Betrieb den Flächenantrag in einem anderen Bundesland stellt. In diesem Fall [übersprigen Sie dieses Kapitel](./add_plot.html).
@@ -24,7 +24,7 @@ In manchen Fällen schlägt der automatische Import fehl.
 2. Lässt sich das [LWK-Downloadportal](https://www.lwk-verfahren.de/DownloadPortal/pages/loadPage.action) von Ihrem Gerät erreichen?
 3. Wurde die Internetverbindung von Ihrem Gerät zurückgesetzt?
 
-Wenn Sie diese Dinge überprüft haben, können Sie nach kurzer Zeit wiederholt auf die **Absenden** Schaltfläche drücken. Falls der Fehler bestehen bleibt, wären wir über eine [kurze Mitteilung](http://fruchtfolge.agp.uni-bonn.de/kontakt) dankbar! 
+Wenn Sie diese Dinge überprüft haben, können Sie nach kurzer Zeit wiederholt auf die **Absenden** Schaltfläche drücken. Falls der Fehler bestehen bleibt, wären wir über eine [kurze Mitteilung](https://fruchtfolge.agp.uni-bonn.de/kontakt) dankbar! 
 :::
 
 ## Manueller Import

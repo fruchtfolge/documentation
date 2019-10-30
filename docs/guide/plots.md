@@ -11,7 +11,7 @@ den verschiedenen Schlägen vereinfacht.
 
 ## Schlag hinzufügen
 
-Um einen Schlag hinzuzufügen, wechseln Sie zur nächst zur Seite [`Karte`](http://fruchtfolge.agp.uni-bonn.de/maps).
+Um einen Schlag hinzuzufügen, wechseln Sie zur nächst zur Seite [`Karte`](https://fruchtfolge.agp.uni-bonn.de/maps).
 
 In der linken, unteren Ecke der Kartenansicht befindet sich eine Reihe von Symbolen:
 Ein Rechteck, ein Papierkorb und ein weiteres Symbol (Zusammenfügen).
@@ -52,7 +52,7 @@ Ihre Änderungen werden automatisch gespeichert.
 
 ### Bodenqualität und weitere Eigenschaften
 Um Schlageigenschaften wie Bodenqualität, Bodenart, Humusgehalt, etc. zu bearbeiten,
-wechseln Sie zunächst zur Ansicht [`Übersicht`](http://fruchtfolge.agp.uni-bonn.de/overview). 
+wechseln Sie zunächst zur Ansicht [`Übersicht`](https://fruchtfolge.agp.uni-bonn.de/overview). 
 
 
 ### Vorfrüchte

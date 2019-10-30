@@ -8,7 +8,7 @@ module.exports = {
   evergreen: true,
   themeConfig: {
     nav: [
-      { text: 'Zurück zur Fruchtfolge Anwendung', link: 'http://fruchtfolge.agp.uni-bonn.de' },
+      { text: 'Zurück zur Fruchtfolge Anwendung', link: 'https://fruchtfolge.agp.uni-bonn.de' },
     ],
     sidebar: [
       {
