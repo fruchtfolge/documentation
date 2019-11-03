@@ -23,6 +23,7 @@ module.exports = {
           ['/guide/plots', 'Schläge verwalten']
         ]
       },
+      /*
       {
         title: 'Videos',   // required
         collapsable: true, // optional, defaults to true
@@ -31,6 +32,7 @@ module.exports = {
           ['/videos/videos', "Schulungsvideos"]
         ]
       },
+      */
       {
         title: 'FAQ',   // required
         collapsable: false, // optional, defaults to true
