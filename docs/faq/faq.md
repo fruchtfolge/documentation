@@ -14,7 +14,9 @@ Die Anforderungen an die Planung sind jedoch in den letzten Jahren immer weiter 
 haben Sie jederzeit die Möglichkeit einzugreifen und die sich daraus ergebenden agronomischen sowie ökonomischen Konsequenzen anzusehen. Die Entscheidung bleibt somit komplett in Ihrer Hand.
 
 ## Zugegeben, das klingt interessant. Aber für so etwas habe ich trotzdem keine Zeit.
-Die Erstellung eines Anbauplans dauert in der Regel weniger als 30 Minuten, inklusive der Registrierung und Dateneingabe. Dazu benötigen Sie lediglich Ihre ZID-Betriebsnummer/Passwort oder die Flächenantragsdateien Ihrer vergangenen Flächenanträge. 
+Die Erstellung eines Anbauplans dauert in der Regel weniger als 30 Minuten, inklusive der Registrierung und Dateneingabe. Dazu benötigen Sie lediglich Ihre ZID-Betriebsnummer/Pin oder die Flächenantragsdateien Ihrer vergangenen Flächenanträge. Zusätzlich wird die Düngebedarfsermittlung nach den Vorgaben der Düngeverordnung 2020 automatisch für Sie angefertigt. 
 
+<!--
 ## Was ist der Unterschied zwischen der Seite `fruchtfolge.uni-bonn.de` und `fruchtfolge.agp.uni-bonn.de`?
 Es gibt keinen Unterschied. Tatsächlich liegt die Fruchtfolge Anwendung auf der Domain `fruchtfolge.agp.uni-bonn.de`. Das Kürzel **agp** steht dabei für **Agrarpolitik**. Die Domain `fruchtfolge.uni-bonn.de` lässt sich jedoch besser einprägen und stellt eine einfache Weiterleitung auf `fruchtfolge.agp.uni-bonn.de` dar.
+-->

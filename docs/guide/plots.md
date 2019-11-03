@@ -11,7 +11,7 @@ den verschiedenen Schlägen vereinfacht.
 
 ## Übersicht
 
-Auf der Seite [`Karte`](https://fruchtfolge.agp.uni-bonn.de/maps) erhalten Sie eine Übersicht über all Ihre Schläge.
+Auf den Unterseiten des Themas [`Schläge`](https://fruchtfolge.agp.uni-bonn.de/maps) erhalten Sie eine Übersicht über all Ihre Schläge.
 
 ::: warning Trotz Import werden keine Schläge angezeigt
 Die historischen Flächenantragsdaten werden nicht automatisch in das aktuelle Planungsjahr übernommen. Sie können jedoch die Antragsdaten des vorherigen Anbaujahrs importieren ([zur Anleitung](./import.html#ubernahme-der-daten-in-das-aktuelle-planungsjahr)).
