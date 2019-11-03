@@ -5,7 +5,7 @@ lang: de-DE
 
 ::: tip Tipp 
 Wenn Sie keine Flächenantragsdaten importiert haben, sollten Sie zunächst die von
-Ihnen angebauten Kulturen hinzufügen. Dadurch wird die eingabe der Vorfrüchte auf
+Ihnen angebauten Kulturen hinzufügen ([zur Anleitung](./crops.html#kultur-hinzufugen)). Dadurch wird die eingabe der Vorfrüchte auf
 den verschiedenen Schlägen vereinfacht.
 :::
 
@@ -40,22 +40,60 @@ ein Eingabefenster. Hier können Sie die Bezeichnung des Schlags, sowie die jewe
 
 ![Symbolleiste](../img/add_plot_dialogue.jpg)
 
-Durch Klicken des **Übernehmen**-Buttons wird der Schlag gespeichert. Im Hintergrund werden nun automatisch die Hof-Feld-Distanz, Bodenqualität, Bodenart, der Humusgehalt, sowie ob die Fläche innerhalb eines "roten" Grundwasserkörpers liegt abgefragt.
+Durch Klicken des **Übernehmen**-Buttons wird der Schlag gespeichert. Im Hintergrund werden nun automatisch die Hof-Feld-Distanz, Bodenqualität, Bodenart, der Humusgehalt, sowie die Zugehörigkeit der Fläche zu einem "roten" Grundwasserkörpers  abgefragt.
 
 Über den **Abbrechen**-Button können Sie den Vorgang abbrechen.
 
-## Schläge bearbeiten
+## Schlag bearbeiten
 ### Geometrie
-Um die Geometrie eines Schlags zu verändern, wählen Sie den Schlag durch anklicken in der Kartenansicht zunächst aus. Die zuvor definierten Eckpunkte des Schlags werden nun angezeigt. Die Punkte können nun veschoben werden, indem Sie zunächst einen Punkt anklicken, gedrückt halten und an die gewünschte Position ziehen.
+Um die Geometrie eines Schlags zu verändern, wechseln Sie zunächst zur Seite [`Karte`](https://fruchtfolge.agp.uni-bonn.de/maps). Wählen Sie dort den Schlag durch anklicken in der Kartenansicht zunächst aus. Die zuvor definierten Eckpunkte des Schlags werden nun angezeigt. Die Punkte können nun veschoben werden, indem Sie zunächst einen Punkt anklicken, gedrückt halten und an die gewünschte Position ziehen.
 Ihre Änderungen werden automatisch gespeichert.
+
+<video id="change_plot" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/change_plot.webm" type="video/webm">
+  <source src="../img/change_plot.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
 
 
 ### Bodenqualität und weitere Eigenschaften
-Um Schlageigenschaften wie Bodenqualität, Bodenart, Humusgehalt, etc. zu bearbeiten,
-wechseln Sie zunächst zur Ansicht [`Übersicht`](https://fruchtfolge.agp.uni-bonn.de/overview). 
+Wechseln Sie zunächst zur Seite [`Übersicht`](https://fruchtfolge.agp.uni-bonn.de/overview). 
+Klicken Sie in die Zelle die Sie verändern möchten, und geben Sie den gewünschten Wert ein. Der Wert wird automatisch gespeichter, sobald Sie außerhalb der Zelle klicken.
 
+::: tip Punkt statt Komma 
+Bei der Eingabe von Zahlen muss das Komma durch einen Punkt ersetzt werden.
+:::
+
+<video id="plot_overview" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/plot_overview.webm" type="video/webm">
+  <source src="../img/plot_overview.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
 
 ### Vorfrüchte
 
-### Löschen
-Um einen Schlag zu löschen, wählen Sie ihn durch anklicken in der Kartenansicht zunächst aus. Anschließend klicken Sie auf das **Papierkorb-Symbol** in der linken, unteren Ecke der Kartenansicht. Der Schlag wurde nun dauerhaft gelöscht.
+::: warning Keine Kulturen
+Sie können die Vorfrüchte Ihrer Schläge erst verändern, wenn Sie bereits Kulturen als mögliche Anbauoptionen hinzugefügt haben ([zur Anleitung](./crops.html#kultur-hinzufugen)).
+:::
+
+Wechseln Sie zunächst zur Seite [`Vorfrüchte`](https://fruchtfolge.agp.uni-bonn.de/plots-previous-crops). In dieser Ansicht können Sie Vorfrüchte sowie Zwischenfrüchte der vergangenen 3 Anbaujahre angeben. Um eine Vorfrucht für einen Schlag auszuwählen, klicken Sie in der Zeile des Schlags auf das Dropdown-Menü für das gewünschte Anbaujahr. Wählen Sie nun im Dropdown-Menü die Vofrucht für den gewählten Schlag und das gewählte Anbaujahr aus.
+
+<video id="plots_prev_crops" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/plots_prev_crops.webm" type="video/webm">
+  <source src="../img/plots_prev_crops.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
+
+::: tip Kulturen mit langer Anbaupause
+Die Angabe der Vorfrüchte der letzten 3 Anbaujahre ist lediglich ausreichend für Kulturen mit einer Anbaupause von weniger als 4 Jahren. Falls Sie Kulturen mit einer längeren Anbaupause anbauen (z.B. Vermehrungsraps mit mind. 10 Jahren Anbaupause), müssen Sie weitere Vorfrüchte angeben um die Anbaupausen einzuhalten. Sie können weitere Vorfrüchte angeben, indem Sie schrittweise in der [Wirtschaftsjahrauswahl](./overview.html#szenario-wirtschaftsjahrauswahl) vorherige Wirtschaftsjahre auswählen, und die Vorfrucht-Tabelle entsprechend ergänzen.
+:::
+
+## Schlag löschen
+Wechseln Sie zunächst zur Seite [`Karte`](https://fruchtfolge.agp.uni-bonn.de/maps). Wählen Sie den Schlag durch anklicken in der Kartenansicht zunächst aus. Anschließend klicken Sie auf das **Papierkorb-Symbol** in der linken, unteren Ecke der Kartenansicht. Der Schlag wurde nun dauerhaft gelöscht.
+
+
+<video id="delete_plot" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/delete_plot.webm" type="video/webm">
+  <source src="../img/delete_plot.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 

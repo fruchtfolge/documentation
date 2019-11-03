@@ -19,7 +19,8 @@ module.exports = {
           ['/', "Los Geht's"],
           ['/guide/overview', 'Übersicht'],
           ['/guide/import', 'Daten importieren'],
-          ['/guide/plots', 'Schläge verwalten'],
+          ['/guide/crops', 'Kulturen verwalten'],
+          ['/guide/plots', 'Schläge verwalten']
         ]
       },
       {
