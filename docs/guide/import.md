@@ -40,3 +40,8 @@ Wenn Sie die Antragsdaten heruntergeladen haben, können Sie diese nun importier
 Klicken Sie dafür zunächst auf den Button **Datei auswählen** neben dem Text *XML-Datei* um das jeweilige Flächenverzeichnis mit der Dateiendung `.xml` hochzuladen. Beachten Sie dabei, dass Sie Daten von jeweils nur einem Antragsjahr gleichzeitig hochladen können.  
 Anschließen klicken Sie auf den Button **Datei auswählen** neben dem Text *GML-Datei* um die Schlaggeometrien des jeweiligen Antragsjahr hochzuladen. Wenn Sie beide Dateien ausgewählt haben, beginnt der Import automatisch.
 
+## Übernahme der Daten in das aktuelle Planungsjahr
+
+Nach dem erfolgreichen Import werden die Flächenantragsdaten lediglich für das Jahr der Antragstellung importiert. Beispielsweise werden Ihnen die Flächen und Kulturen des Flächenantrags 2019 ausschließlich im Planungsjahr `2018/2019` angezeigt. Möchten Sie die Flächen und Kulturen für das darauffolgende Planungsjahr importieren, wählen Sie zunächst in der [`Planungsjahrauswahl`](./overview.html#planungsjahrauswahl) das gewünschte Planungsjahr aus (in unserem Beispiel das Planungsjahr `2019/2020`). Wechseln Sie anschließend zur Seite [`Deckungsbeiträge`](https://fruchtfolge.agp.uni-bonn.de/crops). Klicken Sie dort auf den 'Importieren'-Button, um die Vorjahresdaten zu übernehmen.
+
+![Import Vorjahresdaten](../img/import_prev_year.jpg)

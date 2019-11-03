@@ -26,12 +26,12 @@ Der oberste Menüpunkt in der Navigationsleiste, **Logout**, meldet Sie dabei vo
 
 ![Navigationsleiste](../img/sidebar.jpg)
 
-## Szenario- /Wirtschaftsjahrauswahl
-In der oberen rechten Ecke der Anwendung befinden sich zwei Schaltflächen mit der Aufschrift
-**Standard** und **2019/2020**. 
+## Planungsjahrauswahl
+In der oberen rechten Ecke der Anwendung befinden sich eine Schaltfläche mit der Aufschrift **2019/2020**. 
 
-![Szenario- /Wirtschaftsjahrauswahl](../img/scenario_year.jpg)
+![Planungsjahrauswahl](../img/scenario_year.jpg)
 
+<!--
 Der Button mit der Aufschrift **Standard** bildet
 das aktuell ausgewählte Szenario ab. 
 
@@ -42,8 +42,8 @@ in Zukunft beispielsweise für unterschiedliche Preis-/ Ertragserwartungen, ausw
 zusätzlicher Pachtflächen uvm. Szenarien zu erstellen und einfach vergleichen
 zu können.
 :::
-
-Der Button mit der Aufschrift **2019/2020** stellt das aktuell ausgewählte Planungsjahr dar.
+--> 
+Der Button stellt das aktuell ausgewählte Planungsjahr dar.
 Sie können zwischen den Planungsjahren wechseln, um u.a. jahresspezifische Teilschläge,
 Vorfrüchte und Deckungsbeiträge einzusehen oder zu verändern.
 
