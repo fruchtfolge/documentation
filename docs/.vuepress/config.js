@@ -7,6 +7,11 @@ module.exports = {
   ],
   evergreen: true,
   themeConfig: {
+    repo: 'fruchtfolge/documentation',
+    editLinks: true,
+    editLinkText: 'Helfen Sie uns diese Seite zu verbessern!',
+    lastUpdated: 'Letztes Update',
+    docsDir: 'docs',
     nav: [
       { text: 'Zurück zur Fruchtfolge Anwendung', link: 'https://fruchtfolge.agp.uni-bonn.de' },
     ],

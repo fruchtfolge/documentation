@@ -1,3 +1,7 @@
+---
+  prev: ../
+---
+
 # Allgemein
 
 ## Warum sollte ich die Fruchtfolge Anwendung benutzen?

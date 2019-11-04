@@ -18,10 +18,14 @@ Die hier aufgeführten Informationen können Sie auch bequem [als Video ansehen]
 ## Registrieren
 Um sich bei der Fruchtfolge Anwendung anmelden zu können, müssen Sie sich zunächst registrieren. Dazu öffnen Sie die Seite [fruchtfolge.uni-bonn.de](https://fruchtfolge.agp.uni-bonn.de) und klicken auf den 'Registrieren' Button in der oberen rechten Ecke der Seite.
 
+::: tip Unterstütze Web-Browser
+Die Fruchtfolge Anwendung wird laufend mit den aktuellsten Versionen der Browser [Google Chrome (empfohlen)](https://www.google.com/intl/de_de/chrome/), [Mozilla Firefox](https://www.mozilla.org/de/firefox/new/), [Microsoft Edge](https://www.microsoft.com/de-de/windows/microsoft-edge) und [Safari](https://www.apple.com/de/safari/) getestet. [**Microsoft Internet Explorer**](https://www.techbook.de/apps/software/microsoft-warnt-vor-ie) wird offiziell nicht unterstützt. Sollten bei der Benutzung der Anwendung fehler auftreten, überprüfen Sie bitte zunächst Ihren [Browser auf mögliche Updates](https://praxistipps.chip.de/browser-aktualisieren-so-gehts_10027). Falls die Fehler bestehen bleiben, wären wir über eine [kurze Mitteilung](mailto:fruchtfolge@uni-bonn.de) dankbar!
+:::
+
 ![Registrieren](./img/login.jpg)
 
 Füllen Sie nun die Eingabefelder mit Ihren persönlichen Daten aus. 
-Geben Sie in den Adressdatenfeldern (PLZ, Strasse und Hausnummer) bitte die Adresse Ihres Hofs (Betriebsstätte) an.
+Geben Sie in den Adressdatenfeldern (PLZ, Strasse und Hausnummer) bitte die **Adresse Ihres Hofes** (Betriebsstätte) an.
 
 ::: warning Wofür wird meine Adresse benötigt?
 Bei der Optimierung der Fruchtfolge wird die Hof-Feld-Entfernung Ihrer Schläge berücksichtigt.
