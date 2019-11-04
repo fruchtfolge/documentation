@@ -78,7 +78,7 @@ Ihre Änderungen werden automatisch gespeichert.
 
 ### Bodenqualität und weitere Eigenschaften
 Wechseln Sie zur Seite [`Übersicht`](https://fruchtfolge.agp.uni-bonn.de/overview). 
-Klicken Sie in die Zelle die Sie verändern möchten, und geben Sie den gewünschten Wert ein. Der Wert wird automatisch gespeichter, sobald Sie außerhalb der Zelle klicken.
+Klicken Sie in die Zelle die Sie verändern möchten, und geben Sie den gewünschten Wert ein. Der Wert wird automatisch gespeichert, sobald Sie außerhalb der Zelle klicken.
 
 ::: tip Punkt statt Komma 
 Bei der Eingabe von Zahlen muss das Komma durch einen Punkt ersetzt werden.

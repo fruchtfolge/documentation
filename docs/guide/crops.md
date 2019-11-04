@@ -30,6 +30,23 @@ Durch Klicken des **Übernehmen**-Buttons wird die Kultur gespeichert. Im Hinter
 ## Kultur bearbeiten
 
 ### Deckungsbeitrag
+Wechseln Sie zur Seite [`Deckungsbeiträge`](https://fruchtfolge.agp.uni-bonn.de/crops). Wählen Sie in der rechten Seitenleiste der Programmoberfläche die gewünschte Kultur aus. 
+
+Um einen Eintrag in der Deckungsbeitragskalkulation anzupassen, klicken Sie in die Zelle die Sie verändern möchten, und geben Sie den gewünschten Wert ein. Der Wert wird automatisch gespeichert, sobald Sie außerhalb der Zelle klicken.
+
+::: tip Punkt statt Komma 
+Bei der Eingabe von Zahlen muss das Komma durch einen Punkt ersetzt werden.
+:::
+
+<video id="change_gm" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/change_gm.webm" type="video/webm">
+  <source src="../img/change_gm.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
+
+::: warning Betrag lässt sich nicht verändern
+Die Werte in der Spalte 'Betrag' ergeben sich aus der Summe der Werte aus den Spalten 'Preis' und 'Menge'. Um den Betrag zu verändern, müssen Sie somit entweder den Preis oder die Menge anpassen. In den variablen Maschinenkosten sind standardmäßig Menge und Preis `0`, jedoch wird trotzdem ein Betrag angezeigt. Um diesen nun anzupassen, geben Sie unter 'Menge' den Wert `1` und unter 'Preis' die tatsächlichen Maschinenkosten an (z.B. `420`).
+:::
 
 ### Marktentwicklung
 
