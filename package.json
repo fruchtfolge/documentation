@@ -6,15 +6,17 @@
   "scripts": {
     "dev": "vuepress dev docs & node optimize.js",
     "build": "vuepress build docs",
+    "pdf": "vuepress export ./docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christoph Pahmeyer <christoph.pahmeyer@uni-bonn.de>",
   "license": "MIT",
   "devDependencies": {
+    "ffmpeg-static": "^2.5.0",
     "imagemin": "^7.0.0",
     "imagemin-jpegoptim": "^6.0.0",
     "sharp": "^0.23.0",
-    "ffmpeg-static": "^2.5.0",
-    "vuepress": "^1.0.1"
+    "vuepress": "^1.0.1",
+    "vuepress-plugin-export": "github:sullivanpt/vuepress-plugin-export#multi-option-evolved"
   }
 }

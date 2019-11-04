@@ -1,5 +1,5 @@
 ---
-title: Daten importieren
+title: Import
 lang: de-DE
 ---
 
@@ -24,7 +24,7 @@ In manchen Fällen schlägt der automatische Import fehl.
 2. Lässt sich das [LWK-Downloadportal](https://www.lwk-verfahren.de/DownloadPortal/pages/loadPage.action) von Ihrem Gerät erreichen?
 3. Wurde die Internetverbindung von Ihrem Gerät zurückgesetzt?
 
-Wenn Sie diese Dinge überprüft haben, können Sie nach kurzer Zeit wiederholt auf die **Absenden** Schaltfläche drücken. Falls der Fehler bestehen bleibt, wären wir über eine [kurze Mitteilung](https://fruchtfolge.agp.uni-bonn.de/kontakt) dankbar! 
+Wenn Sie diese Dinge überprüft haben, können Sie nach kurzer Zeit wiederholt auf die **Absenden** Schaltfläche drücken. Falls der Fehler bestehen bleibt, wären wir über eine [kurze Mitteilung](mailto:fruchtfolge@uni-bonn.de) dankbar! 
 :::
 
 ## Manueller Import

@@ -1,5 +1,5 @@
 ---
-title: Loslegen
+title: Schläge
 lang: de-DE
 ---
 

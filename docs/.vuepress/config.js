@@ -3,18 +3,27 @@ module.exports = {
   title: 'Fruchtfolge',
   description: 'Dokumentation der Fruchtfolge Anwendung',
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: `/icons/favicon.ico` }]
+    ['link', {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: `/icons/favicon.ico`
+    }]
   ],
   evergreen: true,
   themeConfig: {
-    nav: [
-      { text: 'Zurück zur Fruchtfolge Anwendung', link: 'https://fruchtfolge.agp.uni-bonn.de' },
-    ],
-    sidebar: [
-      {
-        title: 'Anleitung',   // required
+    repo: 'fruchtfolge/documentation',
+    editLinks: true,
+    editLinkText: 'Helfen Sie uns diese Seite zu verbessern!',
+    lastUpdated: 'Letztes Update',
+    docsDir: 'docs',
+    nav: [{
+      text: 'Zurück zur Fruchtfolge Anwendung',
+      link: 'https://fruchtfolge.agp.uni-bonn.de'
+    }, ],
+    sidebar: [{
+        title: 'Anleitung', // required
         collapsable: false, // optional, defaults to true
-        sidebarDepth: 2,    // optional, defaults to 1
+        sidebarDepth: 2, // optional, defaults to 1
         children: [
           ['/', "Los Geht's"],
           ['/guide/overview', 'Übersicht'],
@@ -34,9 +43,9 @@ module.exports = {
       },
       */
       {
-        title: 'FAQ',   // required
+        title: 'FAQ', // required
         collapsable: false, // optional, defaults to true
-        sidebarDepth: 0,    // optional, defaults to 1
+        sidebarDepth: 0, // optional, defaults to 1
         children: [
           ['/faq/faq', "Häufig gestellte Fragen"]
         ]
@@ -50,5 +59,14 @@ module.exports = {
       ['/guide/change_plots', 'Schläge bearbeiten'],
       */
     ]
-  }
+  },
+  plugins: [
+    ['vuepress-plugin-export', {
+      theme: '@vuepress/default',
+      bundles: [{
+        filter: (location) => !location.includes('export') && !location.includes('faq'),
+        dest: () => `docs/public/Fruchtfolge - Dokumentation.pdf`
+      }]
+    }]
+  ]
 }
