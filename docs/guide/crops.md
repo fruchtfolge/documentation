@@ -1,5 +1,5 @@
 ---
-title: Loslegen
+title: Kulturen
 lang: de-DE
 ---
 ## Übersicht

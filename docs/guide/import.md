@@ -1,5 +1,5 @@
 ---
-title: Daten importieren
+title: Import
 lang: de-DE
 ---
 

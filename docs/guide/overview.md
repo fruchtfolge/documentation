@@ -10,7 +10,7 @@ weitergeleitet.
 
 Im folgenden Abschnitt soll jedoch zunächst auf den allgemeinen Programmaufbau eingegangen werden.
 Alle Unterseiten der Fruchtfolge Anwendung bestehen grundsätzlich aus den gleichen drei Elementen:
-Der [Programmoberfläche](./overview.html#programmoberflache), der [Navigationsleiste](./overview.html#navigationsleiste) und der [Szenario- /Wirtschaftsjahrauswahl](./overview.html#szenario-wirtschaftsjahrauswahl).
+Der [Programmoberfläche](./overview.html#programmoberflache), der [Navigationsleiste](./overview.html#navigationsleiste) und der [Planungsjahrauswahl](./overview.html#planungsjahrauswahl).
 
 ## Programmoberfläche
 Auf der Programmoberfläche wird der Inhalt der Fruchtfolge Anwendung abgebildet.
