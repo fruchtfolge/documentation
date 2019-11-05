@@ -7,7 +7,7 @@ Auf den Unterseiten des Themas [`Kulturen`](https://fruchtfolge.agp.uni-bonn.de/
 
 Auf allen Unterseiten des Themas 'Kulturen' werden die aktuell ausgewählten Kulturen in einer Seitenleiste auf der rechten Seite der Programmoberfläche angezeigt. Die Kulturen werden für eine bessere Übersicht nach ihrer Zugehörigkeit nach Kulturgruppen unterteilt. Ein klick auf den Namen einer Kultur wählt diese Kultur aus, und lädt die dazugehörigen Werte in das aktuell geöffnete Programmfenster.
 
-<video id="crops_overview" width="100%" height="auto" controls autoplay loop>
+<video id="crops_overview" width="100%" height="auto" controls loop>
   <source src="../img/crops_overview.webm" type="video/webm">
   <source src="../img/crops_overview.mp4" type="video/mp4">
   Ihr Browser kann dieses Video nicht abspielen.
@@ -50,7 +50,29 @@ Die Werte in der Spalte 'Betrag' ergeben sich aus der Summe der Werte aus den Sp
 
 ### Marktentwicklung
 
+Die Preis-, Ertrags- und Direktkosten der Kulturen für die vergangenen Jahre können Sie in der Seite [`Marktentwicklung`](https://fruchtfolge.agp.uni-bonn.de/timeseries) anpassen. Die Werte werden benötigt, um später das Risiko des optimierten Anbauplans zu bewerten. Auch für die Berechnung der Düngebedarfsermittlung werden die historischen Ertragsdaten benötigt.
+
+Wählen Sie die gewünschte Kultur in der rechten Seitenleiste aus. Klicken Sie anschließend auf den Datenpunkt in der Grafik, den Sie verändern möchten. Halten Sie den Datenpunkt gedrückt und schieben ihn in die gewünschte Richtung (hoch = höhere Kosten/Preise/Erträge, runter = niedrigere Kosten/Preise/Erträge).
+
+::: tip Datenreihen ausblenden
+Wenn Datenpunkte in der Grafik eng beieinander liegen, kann es schwierig sein den gewünschten Datenpunkt zu mit der Maus (bzw. mit dem Finger bei einem Touchscreen) zu greifen. Zu diesem Zweck können Sie einzelne Datenreihen ausblenden. Klicken Sie dazu in der legende der Grafik auf die Farbe der Datenreihe, die Sie ausblenden möchten.
+:::
+
+<video id="change_timeseries" width="100%" height="auto" controls autoplay loop>
+  <source src="../img/change_timeseries.webm" type="video/webm">
+  <source src="../img/change_timeseries.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
+
 ### Arbeitszeitbedarf
+Wechseln Sie zur Seite [`Arbeitszeitbedarf`](https://fruchtfolge.agp.uni-bonn.de/crop-labour-requirement). 
+Wählen Sie die gewünschte Kultur in der rechten Seitenleiste aus. Klicken Sie anschließend auf den Datenpunkt in der Grafik, den Sie verändern möchten. Halten Sie den Datenpunkt gedrückt und schieben ihn in die gewünschte Richtung (hoch = höherer Arbeitszeitbedarf, runter = niedrigerer Arbeitszeitbedarf).
+
+<video id="change_labour" width="100%" height="auto" controls loop>
+  <source src="../img/change_labour.webm" type="video/webm">
+  <source src="../img/change_labour.mp4" type="video/mp4">
+  Ihr Browser kann dieses Video nicht abspielen.
+</video> 
 
 ### Wirkung auf Nachfrüchte
 
@@ -62,8 +84,4 @@ Die Werte in der Spalte 'Betrag' ergeben sich aus der Summe der Werte aus den Sp
 ## Kultur löschen
 Wechseln Sie zur Seite [`Deckungsbeiträge`](https://fruchtfolge.agp.uni-bonn.de/crops). Wählen Sie die zu löschende Kultur in der rechten Seitenleiste aus. Scrollen Sie in der Programmoberfläche an das untere Ende der Deckungsbeitragstablle. Klicken Sie dort auf den Button mit der Aufschrift 'Entfernen'. Die Kultur wurde nun dauerhaft gelöscht.
 
-<video id="delete_crop" width="100%" height="auto" controls autoplay loop>
-  <source src="../img/delete_crop.webm" type="video/webm">
-  <source src="../img/delete_crop.mp4" type="video/mp4">
-  Ihr Browser kann dieses Video nicht abspielen.
-</video> 
+![Löschen](../img/delete_crop.jpg)
