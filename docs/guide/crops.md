@@ -75,7 +75,7 @@ Wählen Sie die gewünschte Kultur in der rechten Seitenleiste aus. Klicken Sie 
 </video> 
 
 ### Wirkung auf Nachfrüchte
-Wechseln Sie zur Seite [`Eigenschaften`](https://fruchtfolge.agp.uni-bonn.de/crop-labour-requirement). 
+Wechseln Sie zur Seite [`Eigenschaften`](https://fruchtfolge.agp.uni-bonn.de/crop-settings). 
 Die erste Tabelle auf der Seite beschreibt den Ertragseffekt, den die aktuell ausgewählte Kultur in der rechten Seitenleiste der Programmoberfläche als Vorfrucht auf die jeweilige Kultur in der Tabelle als Nachfrucht hat.
 
 Anhand eines Beispiels und der folgenden Abbildung lässt sich das Konzept verdeutlichen: In der rechten Seitenleiste wurde die Kultur `Winterweizen - Brotweizen` ausgewählt. Die Zeile `Stärkekartoffeln` in der Tabelle beschreibt nun die Eignung der Kultur `Winterweizens - Brotweizen` als Vorfrucht für die Kultur `Stärkekartoffeln`.
@@ -101,10 +101,24 @@ Die folgende Tabelle erläutert alle möglichen Wirkungsfaktoren und deren Ertra
 | 0              | Nachfrucht nicht möglich                        |
 
 ### Anbaupause, Greening-Faktor, etc.
+Wechseln Sie zur Seite [`Einstellungen`](https://fruchtfolge.agp.uni-bonn.de/crop-settings).
+Die zweite Tabelle auf der Seite weist Fruchtfolge Eigenschaften wie z.B. mind. Anbaupausen, max. Anteil an der Anbaufläche etc. der aktuell ausgewählten Kultur aus. Sie können die Werte verändern, indem Sie in die Zelle klicken die Sie verändern möchten, und den gewünschten Wert eingeben. Der Wert wird automatisch gespeichert, sobald Sie außerhalb der Zelle klicken.
+
+::: tip Punkt statt Komma 
+Bei der Eingabe von Zahlen muss das Komma durch einen Punkt ersetzt werden.
+:::
 
 ![Fruchtfolge Einstellungen](../img/crop-rotation-settings.jpg)
-### Düngeverordnung
 
+### Düngeverordnung und Düngebedarfsermittlung
+Wechseln Sie zur Seite [`Einstellungen`](https://fruchtfolge.agp.uni-bonn.de/crop-settings).
+Die dritte Tabelle auf der Seite weist Stickstoff- und Phosphatbedarfswerte sowie weitere für die Einhaltung der Düngeverordnung sowie die Erstellung der Düngebedarfsermittlung relevante Faktoren aus. Sie können die Werte verändern, indem Sie in die Zelle klicken die Sie verändern möchten, und den gewünschten Wert eingeben. Der Wert wird automatisch gespeichert, sobald Sie außerhalb der Zelle klicken.
+
+::: tip Punkt statt Komma 
+Bei der Eingabe von Zahlen muss das Komma durch einen Punkt ersetzt werden.
+:::
+
+![Fruchtfolge Einstellungen](../img/duev-settings.jpg)
 
 ## Kultur löschen
 Wechseln Sie zur Seite [`Deckungsbeiträge`](https://fruchtfolge.agp.uni-bonn.de/crops). Wählen Sie die zu löschende Kultur in der rechten Seitenleiste aus. Scrollen Sie in der Programmoberfläche an das untere Ende der Deckungsbeitragstablle. Klicken Sie dort auf den Button mit der Aufschrift 'Entfernen'. Die Kultur wurde nun dauerhaft gelöscht.
