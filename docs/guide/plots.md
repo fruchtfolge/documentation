@@ -5,13 +5,13 @@ lang: de-DE
 
 ::: tip Tipp 
 Wenn Sie keine Flächenantragsdaten importiert haben, sollten Sie die von
-Ihnen angebauten Kulturen zuerst hinzufügen ([zur Anleitung](./crops.html#kultur-hinzufugen)). Dadurch wird die eingabe der Vorfrüchte auf
+Ihnen angebauten Kulturen zuerst hinzufügen ([zur Anleitung](./crops.html#kultur-hinzufugen)). Dadurch wird die Eingabe der Vorfrüchte auf
 den verschiedenen Schlägen vereinfacht.
 :::
 
 ## Übersicht
 
-Auf den Unterseiten des Themas [`Schläge`](https://fruchtfolge.agp.uni-bonn.de/maps) erhalten Sie eine Übersicht über all Ihre Schläge.
+Auf den Unterseiten des Themas [`Schläge`](https://fruchtfolge.agp.uni-bonn.de/maps) können Sie Schlagumrisse, Eigenschaften (z.B. Bodenqualität oder Humusgehalt) und Vorfrüchte einsehen und anpassen.
 
 ::: warning Trotz Import werden keine Schläge angezeigt
 Die historischen Flächenantragsdaten werden nicht automatisch in das aktuelle Planungsjahr übernommen. Sie können jedoch die Antragsdaten des vorherigen Anbaujahrs importieren ([zur Anleitung](./import.html#ubernahme-der-daten-in-das-aktuelle-planungsjahr)).
@@ -19,7 +19,7 @@ Die historischen Flächenantragsdaten werden nicht automatisch in das aktuelle P
 
 ![Kartenansicht](../img/map_main.jpg)
 
-In der rechten Hälfte der Kartenansicht befindet sich eine Seiteleiste mit der von Ihnen bewirtschafteten Gesamtfläche und einer Auflistung aller Schläge. 
+Auf der Seite [`Karte`](https://fruchtfolge.agp.uni-bonn.de/maps) befindet sich in der rechten Hälfte der Programmoberfläche  eine Seiteleiste. Dort wird die von Ihnen bewirtschaftete Gesamtfläche und eine Auflistung aller Schläge angezeigt.
 
 Die Schläge werden für eine bessere Übersicht automatisch nach Regionen unterteilt. Durch klicken auf den Namen einer Region werden alle der Region zugehörigen Schläge angezeigt. Beim klicken auf eine Schlagbezeichnung 'fliegt' die Kartenansicht zum ausgewählten Schlag.
 
