@@ -75,9 +75,34 @@ Wählen Sie die gewünschte Kultur in der rechten Seitenleiste aus. Klicken Sie 
 </video> 
 
 ### Wirkung auf Nachfrüchte
+Wechseln Sie zur Seite [`Eigenschaften`](https://fruchtfolge.agp.uni-bonn.de/crop-labour-requirement). 
+Die erste Tabelle auf der Seite beschreibt den Ertragseffekt, den die aktuell ausgewählte Kultur in der rechten Seitenleiste der Programmoberfläche als Vorfrucht auf die jeweilige Kultur in der Tabelle als Nachfrucht hat.
+
+Anhand eines Beispiels und der folgenden Abbildung lässt sich das Konzept verdeutlichen: In der rechten Seitenleiste wurde die Kultur `Winterweizen - Brotweizen` ausgewählt. Die Zeile `Stärkekartoffeln` in der Tabelle beschreibt nun die Eignung der Kultur `Winterweizens - Brotweizen` als Vorfrucht für die Kultur `Stärkekartoffeln`.
+
+![Vorfrucht Effekt auf Nachfrüchte](../img/prev-crop-effect.jpg)
+
+Den Ertragseffekt, den die ausgewählten Kultur als Vorfrucht für eine jeweilige Nachfrucht hat, wird anhand eines sog. Wirkungsfaktors ausgedrückt. Der Wirkungsfaktor ist eine Ganzzahl zwischen `0` und `10`. Ein Wert von `10` stuft die Vorfrucht/Nachfrucht kombination als `sehr günstig` ein. Dadurch wird angenommen, dass der Ertrag der Nachfrucht beim Anbau dieser Vorfrucht/Nachfrucht Kombination `110%` des durchschnittlichen (in der [Deckungsbeitragskalkulation](./crops.html#deckungsbeitrag) angegebenen) Ertrags erreicht. Ein Wert von `0` hingegen verbietet den Anbau dieser Vorfrucht/Nachfrucht kombination. 
+
+Die folgende Tabelle erläutert alle möglichen Wirkungsfaktoren und deren Ertragswirkung im Vergleich zum durchschnittlichen Ertrag der Nachfrucht.
+
+| Wirkungsfaktor | Ertragseffekt (bezogen auf Durchschnittsertrag) |
+|:---------------|:------------------------------------------------|
+| 10             | 110 %                                           |
+| 9              | 105 %                                           |
+| 8              | 100 %                                           |
+| 7              | 90 %                                            |
+| 6              | 81,7 %                                          |
+| 5              | 73,4 %                                          |
+| 4              | 65,1 %                                          |
+| 3              | 56,8 %                                          |
+| 2              | 48,5 %                                          |
+| 1              | 40,2 %                                          |
+| 0              | Nachfrucht nicht möglich                        |
 
 ### Anbaupause, Greening-Faktor, etc.
 
+![Fruchtfolge Einstellungen](../img/crop-rotation-settings.jpg)
 ### Düngeverordnung
 
 
