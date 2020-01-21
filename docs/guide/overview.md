@@ -1,4 +1,4 @@
----
+﻿---
 title: Übersicht
 lang: de-DE
 ---
@@ -13,7 +13,7 @@ Alle Unterseiten der Fruchtfolge Anwendung bestehen grundsätzlich aus den gleic
 Der [Programmoberfläche](./overview.html#programmoberflache), der [Navigationsleiste](./overview.html#navigationsleiste) und der [Planungsjahrauswahl](./overview.html#planungsjahrauswahl).
 
 ## Programmoberfläche
-Auf der Programmoberfläche wird der Inhalt der Fruchtfolge hallo Anwendung abgebildet.
+Auf der Programmoberfläche wird der Inhalt der Fruchtfolge Anwendung abgebildet.
 Abhängig von der ausgewählten Unterseite gibt es in der Oberfläche die Möglichkeit,
 Daten an die betrieblichen Gegebenheiten anzupassen.
 
